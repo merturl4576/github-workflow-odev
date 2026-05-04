@@ -9,3 +9,7 @@ def test_add():
 def test_sub():
     assert sub(5, 2) == 3
     assert sub(0, 4) == -4
+    def test_multiply():
+      from calc import multiply
+      assert multiply(3, 4) == 12
+      assert multiply(5, 0) == 0
